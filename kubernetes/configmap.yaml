@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ivolvecm
+  namespace: full-cicd
+data:
+  DB_HOST: ivolvedbsvc
+  DB_USER: ivolve_user
+  DB_NAME: ivolve
